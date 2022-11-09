@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Alata";
+    src: url(fonts/Alata/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter/static/Inter-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/Inter/static/Inter-SemiBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    background-color: #ccd5ff;
+    font-family: 'Inter';
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Alata';
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 6vh;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+h4 {
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#assignment-background {
+    margin-right: 3vh;
+    width: 50%;
+    background-color: #4658b3;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 3vh;
+}
+/* 
+#assignment-background p {
+    background-color: aquamarine;
+} */
+
+#start-up-intro {
+    margin-left: 3vh;
+    width: 50%;
+    background-color: #4658b3;
+    border-radius: 20px;
+    color: #FFFFFF;
+    padding: 3vh;
+}
+
+.sketch-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000C4A;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 2vw;
+    margin: 5vw;
+}
+
+.sketch-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4658b3;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 2vw;
+    margin: 5vw;
+}
+
+.sketch-a img,.sketch-b img {
+    width: 45%;
+    margin: 2vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#lofi-prototype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lofi-prototype p {
+    padding: 3vw;
+}
+
+#hifi-mockup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav {
+    background-color: #000C4A;
+    border-radius: 20px;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+#user-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-embed {
+    width: 800px;
+    height: 450px;
+}
